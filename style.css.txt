@@ -354,8 +354,8 @@ footer {
         width: 100%;
         max-width: 300px;
     }
-
 }
+
 /* Video Styling */
 .video-container {
     margin: 2rem 0;
