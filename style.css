@@ -367,3 +367,23 @@ video {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     max-width: 100%;
 }
+/* PDF Catalog Section Styling */
+.catalog-pdf {
+    background: var(--light-gray);
+    padding: 60px 5%;
+    text-align: center;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+.catalog-pdf h2 {
+    color: var(--navy);
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.catalog-pdf p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
