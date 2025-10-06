@@ -1,45 +1,135 @@
-<!-- PDF Catalog Section - Add this after the catalog-header section -->
-<section class="catalog-pdf">
-    <div class="container">
-        <h2>📚 Full Book Catalog</h2>
-        <p>Download our complete catalog with all available books, prices, and descriptions.</p>
-        <a href="catalogue.pdf" class="btn btn-primary" download>
-            📥 Download Full Catalog (PDF)
-        </a>
-    </div>
-</section>
-<!-- Replace the placeholder book images with your actual photos -->
-<div class="book-card">
-    <div class="book-image">
-        <img src="images/your-bookshelf-photo.jpg" alt="Our Book Collection">
-    </div>
-    <div class="book-info">
-        <h3>Our Book Collection</h3>
-        <p class="book-genre">Various Genres • 50+ Titles</p>
-        <p class="book-desc">Browse our diverse collection of fiction, non-fiction, and academic books.</p>
-        <div class="book-meta">
-            <span class="price">Starting at $2/week</span>
-            <span class="status available">Available</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog - PageTurner Rentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PageTurner Rentals</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html" class="active">Book Catalog</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+            <li><a href="index.html#contact">Rent Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="catalog-header">
+        <div class="container">
+            <h1>Our Book Collection</h1>
+            <p>Browse our available titles and find your next read</p>
         </div>
-        <a href="https://wa.me/918999690180?text=Hi! I'd like to see your full book catalog" class="btn btn-small">View Full Catalog</a>
-    </div>
-</div>
+    </section>
 
-<div class="book-card">
-    <div class="book-image">
-        <img src="images/bookfair-event.jpg" alt="Book Fair Event">
-    </div>
-    <div class="book-info">
-        <h3>Community Events</h3>
-        <p class="book-genre">Book Fairs • Pop-up Events</p>
-        <p class="book-desc">Join us at local events and book fairs to browse in person.</p>
-        <div class="book-meta">
-            <span class="price">Free Entry</span>
-            <span class="status available">Monthly Events</span>
+    <!-- PDF Catalog Section -->
+    <section class="catalog-pdf">
+        <div class="container">
+            <h2>📚 Full Book Catalog</h2>
+            <p>Download our complete catalog with all available books, prices, and descriptions.</p>
+            <a href="catalogue.pdf" class="btn btn-primary" download>
+                📥 Download Full Catalog (PDF)
+            </a>
         </div>
-        <a href="https://wa.me/918999690180?text=Hi! Tell me about upcoming events" class="btn btn-small">Get Event Updates</a>
-    </div>
-</div>
+    </section>
 
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog-grid">
+                <!-- Video 1 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <video controls>
+                            <source src="images/VID-20251006-WA0035.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="book-info">
+                        <h3>Book Collection Tour</h3>
+                        <p class="book-desc">Virtual tour of our complete collection</p>
+                    </div>
+                </div>
 
+                <!-- Video 2 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <video controls>
+                            <source src="images/VID-20251006-WA0036.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="book-info">
+                        <h3>Book Fair Event</h3>
+                        <p class="book-desc">Highlights from our community events</p>
+                    </div>
+                </div>
 
+                <!-- Video 3 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <video controls>
+                            <source src="images/VID-20251006-WA0037.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="book-info">
+                        <h3>Rental Process</h3>
+                        <p class="book-desc">See how easy it is to rent books</p>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <video controls>
+                            <source src="images/VID-20251006-WA0038.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="book-info">
+                        <h3>Customer Experience</h3>
+                        <p class="book-desc">Hear from our satisfied customers</p>
+                    </div>
+                </div>
+
+                <!-- Images 131-161 -->
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0131.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0132.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0133.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0134.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0135.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0136.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0137.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0138.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0139.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0140.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0141.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0142.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0143.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0144.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0145.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0146.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0147.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0148.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0149.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0150.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0151.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0152.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0153.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0154.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0155.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0156.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0157.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0158.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0159.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0160.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+                <div class="book-card"><div class="book-image"><img src="images/IMG-20251006-WA0161.jpg"></div><div class="book-info"><h3>Book Collection</h3><p>Available for rent</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PageTurner Rentals. Rent your next adventure.</p>
+        </div>
+    </footer>
+</body>
+</html>
