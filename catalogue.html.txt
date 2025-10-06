@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog - PageTurner Rentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PageTurner Rentals</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html" class="active">Book Catalog</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+            <li><a href="index.html#contact">Rent Now</a></li>
+        </ul>
+    </nav>
+
+    <section class="catalog-header">
+        <div class="container">
+            <h1>Our Book Collection</h1>
+            <p>Browse our available titles and find your next read</p>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <div class="catalog-grid">
+                <!-- Book 1 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book1.jpg" alt="Book Title" onerror="this.src='https://via.placeholder.com/200x300/2C3E50/FFFFFF?text=Book+Cover'">
+                    </div>
+                    <div class="book-info">
+                        <h3>The Great Novel</h3>
+                        <p class="book-genre">Fiction • Literary</p>
+                        <p class="book-desc">A captivating story about life and relationships.</p>
+                        <div class="book-meta">
+                            <span class="price">$2/week</span>
+                            <span class="status available">Available</span>
+                        </div>
+                        <a href="https://wa.me/ YOUR_WHATSAPP_NUMBER ?text=Hi! I'm interested in renting 'The Great Novel'" class="btn btn-small">Rent This Book</a>
+                    </div>
+                </div>
+
+                <!-- Book 2 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book2.jpg" alt="Book Title" onerror="this.src='https://via.placeholder.com/200x300/27AE60/FFFFFF?text=Book+Cover'">
+                    </div>
+                    <div class="book-info">
+                        <h3>Startup Success</h3>
+                        <p class="book-genre">Business • Entrepreneurship</p>
+                        <p class="book-desc">Essential guide for aspiring entrepreneurs.</p>
+                        <div class="book-meta">
+                            <span class="price">$3/week</span>
+                            <span class="status available">Available</span>
+                        </div>
+                        <a href="https://wa.me/ 918999690180 ?text=Hi! I'm interested in renting 'Startup Success'" class="btn btn-small">Rent This Book</a>
+                    </div>
+                </div>
+
+                <!-- Book 3 -->
+                <div class="book-card">
+                    <div class="book-image">
+                        <img src="images/book3.jpg" alt="Book Title" onerror="this.src='https://via.placeholder.com/200x300/E74C3C/FFFFFF?text=Book+Cover'">
+                    </div>
+                    <div class="book-info">
+                        <h3>Science Fundamentals</h3>
+                        <p class="book-genre">Education • Science</p>
+                        <p class="book-desc">Comprehensive guide to basic scientific principles.</p>
+                        <div class="book-meta">
+                            <span class="price">$2.5/week</span>
+                            <span class="status available">Available</span>
+                        </div>
+                        <a href="https://wa.me/ YOUR_WHATSAPP_NUMBER ?text=Hi! I'm interested in renting 'Science Fundamentals'" class="btn btn-small">Rent This Book</a>
+                    </div>
+                </div>
+
+                <!-- Add more books as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PageTurner Rentals. Rent your next adventure.</p>
+        </div>
+    </footer>
+</body>
+</html>
